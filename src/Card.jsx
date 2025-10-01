@@ -1,8 +1,8 @@
 function Card({ logo, name, description, isActive, onToggle, onRemove }) {
   return (
     <div className="p-4 flex justify-center ">
-      <div className="w-80 bg-white p-6 rounded-2xl shadow-md">
-        <div className="flex items-center gap-3 mb-4">
+  <div className="w-80 bg-white p-6 rounded-2xl shadow-md">
+    <div className="flex items-center gap-3 mb-4">
           <img src={logo} alt={name} className="w-12 h-12 object-contain" />
           <h1 className="text-xl font-semibold text-gray-800">{name}</h1>
         </div>
@@ -34,4 +34,4 @@ function Card({ logo, name, description, isActive, onToggle, onRemove }) {
     </div>
   );
 }
-export default Card
+export default Card;
